@@ -1,20 +1,36 @@
-## Key Changes
+# Social Media Scheduler
 
-1.  ### **Routing with `react-router-dom`**
+A simple React application for scheduling social media posts across multiple platforms (Twitter, Facebook, Instagram, LinkedIn). Create posts with titles, content, and images, then schedule them for specific dates and times. All data is stored locally in your browser and persists across sessions.
 
-    -   Introduced `react-router-dom` for seamless navigation.
-    -   Defined two main routes:
+## Features
 
-        -   `/` – Displays the PostForm and PostList components.
-        -   `/post/:id` – Shows the detailed view of a selected post using the new `DetailedPost` component.
+- Create and schedule posts with images
+- Support for multiple social media platforms
+- Local storage for data persistence
+- Responsive design
+- Easy post management (view details, delete)
 
-2.  ### **New Component: `DetailedPost`**
+## Quick Start
 
-    -   Displays full details of a selected post, including title, content, image, platforms, scheduled time, and post ID.
-    -   Uses `useParams` to extract the post ID from the route.
-    -   Includes a “Go Back” button using `useNavigate` for user-friendly navigation.
+npm install
+npm run dev
 
-3.  ### **Clickable Post Navigation**
+Open `http://localhost:5173` in your browser.
 
-    -   In `PostList`, each post now includes a "compass" icon button.
-    -   Clicking the button navigates to the post’s detail page via `<NavLink to={`/post/${post.\_id}`}>`.
+## Usage
+
+1. Fill in the post title and content
+2. Upload an image (optional)
+3. Select target platforms
+4. Choose date and time
+5. Click "Schedule Post"
+
+Your posts will be saved automatically and remain even after closing the browser.
+
+## Tech Stack
+
+React, Vite, CSS3, Web Storage API
+
+---
+
+Built with ❤️ using React
