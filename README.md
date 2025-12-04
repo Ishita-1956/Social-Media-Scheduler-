@@ -35,6 +35,4 @@ React, Vite, CSS3, Web Storage API
 ---
 
 Built with ❤️ using React
-=======
-# Social-Media-Scheduler-
 
