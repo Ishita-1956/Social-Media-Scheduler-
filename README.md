@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Social Media Scheduler
 
 A simple React application for scheduling social media posts across multiple platforms (Twitter, Facebook, Instagram, LinkedIn). Create posts with titles, content, and images, then schedule them for specific dates and times. All data is stored locally in your browser and persists across sessions.
@@ -34,3 +35,6 @@ React, Vite, CSS3, Web Storage API
 ---
 
 Built with ❤️ using React
+=======
+# Social-Media-Scheduler-
+>>>>>>> 0fdc6a679ce9c3fafa9bd94ae273f905b36d3b8f
